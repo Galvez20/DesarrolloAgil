@@ -21,7 +21,7 @@ public class ClienteDaoImplTest {
 	@Inject
 	ClienteDao clienteDao;
 	
-	@Test
+	@Test 
 	public void pruebaConsultarTodo(){
 		System.out.println("Test consultar todos los clientes");
 		try{
